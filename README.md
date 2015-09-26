@@ -15,23 +15,23 @@ The original student repo name was 'blue_diamond_awards' but has been renamed an
 This repo is published on Github pages at: http://bluediamondawards.github.io/TTS-project-2015
 
 To work with and publish this repo using gh-pages under your own github account:
-1. Fork the repo
-2. Clone it locally
-3. Install gulp and associated gulp add-ins (see gulpfile.js)
-     npm install --global gulp
-     npm install browser-sync gulp --save-dev
-     npm install gulp-sass --save-dev
-     npm install --save-dev gulp-plumber
-     npm install --save-dev gulp-autoprefixer
-     npm install --save-dev gulp-gh-pages
-4. Make sure you can run/view the site locally 
-     gulp
-4. If you make changes, ensure your master branch is committed and pushed to your fork
-5. Set up your local repo for gh-pages deployment (working from master)
-     git checkout --orphan gh-pages
-     git rm -rf .
-     git checkout master
-6. gulp deploy
+- 1. Fork the repo
+- 2. Clone it locally
+- 3. Install gulp and associated gulp add-ins (see gulpfile.js)
+    * npm install --global gulp
+    * npm install browser-sync gulp --save-dev
+    * npm install gulp-sass --save-dev
+    * npm install --save-dev gulp-plumber
+    * npm install --save-dev gulp-autoprefixer
+    * npm install --save-dev gulp-gh-pages
+- 4. Make sure you can run/view the site locally 
+    * gulp
+- 5. If you make changes, ensure your master branch is committed and pushed to your fork
+- 6. Set up your local repo for gh-pages deployment (working from master)
+    * git checkout --orphan gh-pages
+    * git rm -rf .
+    * git checkout master
+- 7. gulp deploy
 
 Your fork should be visible in a few moments at [your github account].github.io/TTS-project-2015/
 
